@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
   startScreen.classList.add('hidden');
 
   // ВКЛЮЧАЕМ RAIN ТЕМУ
-  switchTheme('assets/rain_background.mp4', rainMusic, 'rain-theme', snowOverlay, true);
+  switchTheme('https://image2url.com/r2/default/videos/1775649902262-c41fbb23-3de6-4ed1-8974-c6e4ceab5da0.mp4', rainMusic, 'rain-theme', snowOverlay, true);
 
   profileBlock.classList.remove('hidden');
     gsap.fromTo(profileBlock,
