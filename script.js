@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   startScreen.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/rain_background.mov', rainMusic, 'rain-theme', snowOverlay, true);
+    switchTheme('https://image2url.com/r2/default/videos/1775649902262-c41fbb23-3de6-4ed1-8974-c6e4ceab5da0.mp4', rainMusic, 'rain-theme', snowOverlay, true);
     startScreen.classList.add('hidden');
   
     profileBlock.classList.remove('hidden');
